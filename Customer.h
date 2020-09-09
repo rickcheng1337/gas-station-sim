@@ -1,8 +1,5 @@
-
-
 #ifndef __Customer__
 #define __Customer__
-
 
 #include <stdio.h>
 #include <windows.h>
@@ -44,7 +41,6 @@ public:
 		srand(4);
 		FuelChoice = FuelChoices[rand()%3];
 	}
-
 
 	int main(void)
 	{
